@@ -1,0 +1,67 @@
+# There are the default property values so can be omitted if being used
+#web3j:
+#  client-address: http://localhost:8545
+#  admin-client: false
+
+database:
+   driverClass: com.mysql.jdbc.Driver
+   user: root
+   password: QuickOfficeL5      
+   url: jdbc:mysql://localhost:3306/ether
+   properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.MySQLDialect  
+    #hibernate.show_sql: true
+    hibernate.hbm2ddl.auto: update
+    
+server:  
+  type: default  
+  applicationContextPath: / 
+  adminContextPath: /
+  maxThreads: 20480
+  minThreads: 50
+  gzip:
+    bufferSize: 32KiB
+  applicationConnectors:
+  - type: http     
+    port: 9000
+    #bindHost: 127.0.0.1 # only bind to loopback
+    headerCacheSize: 512 bytes
+    outputBufferSize: 64KiB
+    maxRequestHeaderSize: 32KiB
+    maxResponseHeaderSize: 32KiB
+    inputBufferSize: 32KiB
+    idleTimeout: 30 seconds
+    minBufferPoolSize: 64 bytes
+    bufferPoolIncrement: 1KiB
+    maxBufferPoolSize: 64KiB
+    acceptorThreads: 1
+    selectorThreads: 2
+    acceptQueueSize: 1024
+    reuseAddress: true
+    soLingerTime: 345s
+    useServerHeader: false
+    useDateHeader: true
+    useForwardedHeaders: true
+  adminConnectors:
+  - type: http
+    port: 9001
+
+swagger:
+  resourcePackage: com.cryptcert.ethereum.resources   
+
+
+defaultHystrixConfig:
+    hystrix.command.DeviceServiceDependency.execution.isolation.thread.timeoutInMilliseconds: 2000
+    hystrix.threadpool.PinCheckService.maxQueueSize: 50
+    hystrix.threadpool.PinCheckService.coreSize: 5
+    
+logging:
+  level: INFO
+  appenders:
+    - type: console
+      threshold: ALL
+      timeZone: UTC
+      target: stdout
+      logFormat: # TODO## YAML Template.
+---
