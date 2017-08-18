@@ -1,6 +1,7 @@
 # MicroService Framework for Ethereum
  
 Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
+A full java based implementation for Ethereum using WEB3J. (https://web3j.io)
 
 ## Preconditions:
 
