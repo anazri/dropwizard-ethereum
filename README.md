@@ -1,13 +1,12 @@
 # MicroService Framework for Ethereum
  
-Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
-A full java based implementation for Ethereum using WEB3J. (https://web3j.io)
+1. Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
+2. A full java based implementation for Ethereum using WEB3J. (https://web3j.io)
 
 ## Preconditions:
 
-a. Oracle Java JDK 1.8 (set JAVA_HOME) 
-
-b. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
+1. Oracle Java JDK 1.8 (set JAVA_HOME) 
+2. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
 
 ## generate java class for solidity contract (.sol to .java)
 
