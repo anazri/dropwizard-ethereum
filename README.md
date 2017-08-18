@@ -18,5 +18,5 @@ b. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
 1. from  dropwizard-ethereum\src\main\resources\config.yml have a look at mysql credentials
 2. `cd dropwizard-ethereum`
 3. `mvn clean package -U`
-4. `java -jar target/bix-api-auth.jar server src/main/resources/config.yml`
-5. Web-UI access to bix-api-auth - `http://localhost:9000/swagger`
+4. `java -jar target/dropwizard-ethereum.jar server src/main/resources/config.yml`
+5. Web-UI access - `http://localhost:9000/swagger`
