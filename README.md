@@ -2,6 +2,7 @@
  
 1. Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
 2. A full java based implementation for Ethereum using WEB3J. (https://web3j.io)
+3. Hibernate MYSQL
 
 ## Preconditions:
 
