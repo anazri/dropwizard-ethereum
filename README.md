@@ -1,4 +1,4 @@
-# MicroService for Ethereum
+# MicroService Framework for Ethereum
  
 Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
 
