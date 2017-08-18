@@ -14,6 +14,8 @@ b. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
 2. generate by: `mvn web3j:generate-sources`
 3. if build sucess, then go to package `generated.contract`
 
+*source https://github.com/web3j/web3j-maven-plugin
+
 ## execute microservice
 
 1. from  `dropwizard-ethereum\src\main\resources\config.yml` have a look at mysql credentials (if needed)
