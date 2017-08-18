@@ -4,7 +4,8 @@ Developed during Blockchain Summer School Hackathon 2017 Copenhagen, Denmark
 
 ## Preconditions:
 
-a. Oracle Java JDK 1.8 (set JAVA_HOME) </br>
+a. Oracle Java JDK 1.8 (set JAVA_HOME) 
+
 b. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
 
 ## generate java class for solidity contract (.sol to .java)
