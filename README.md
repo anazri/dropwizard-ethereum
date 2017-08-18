@@ -15,7 +15,7 @@ b. Apache Maven 3 (set MAVEN_HOME or M2_HOME)
 
 ## execute microservice
 
-1. from  dropwizard-ethereum\src\main\resources\config.yml have a look at mysql credentials
+1. from  `dropwizard-ethereum\src\main\resources\config.yml` have a look at mysql credentials (if needed)
 2. `cd dropwizard-ethereum`
 3. `mvn clean package -U`
 4. `java -jar target/dropwizard-ethereum.jar server src/main/resources/config.yml`
