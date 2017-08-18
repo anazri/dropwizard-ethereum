@@ -6,7 +6,7 @@
 database:
    driverClass: com.mysql.jdbc.Driver
    user: root
-   password: QuickOfficeL5      
+   password: "your db password here"      
    url: jdbc:mysql://localhost:3306/ether
    properties:
     charSet: UTF-8
